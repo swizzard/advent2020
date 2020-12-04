@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 46e839104249e59e4ed71827824ab859c0e2256fe222ab1b25f8abdf7822dd97
+-- hash: 56b2fb6fbc70a7a19fe7e8b9c28cefa763e88db3fe1868c16b5de257a4b85ed8
 
 name:           advent2020
 version:        0.1.0.0
@@ -30,6 +30,7 @@ library
       Day1
       Day2
       Day3
+      Day4
       Lib
   other-modules:
       Paths_advent2020
@@ -39,6 +40,7 @@ library
       attoparsec
     , base >=4.7 && <5
     , bytestring
+    , containers
     , vector
   default-language: Haskell2010
 
@@ -54,6 +56,7 @@ executable advent2020-exe
     , attoparsec
     , base >=4.7 && <5
     , bytestring
+    , containers
     , vector
   default-language: Haskell2010
 
@@ -70,5 +73,6 @@ test-suite advent2020-test
     , attoparsec
     , base >=4.7 && <5
     , bytestring
+    , containers
     , vector
   default-language: Haskell2010
