@@ -24,6 +24,7 @@ dependencies:
 - containers
 - attoparsec
 - bytestring
+- mtl
 - vector
 
 library:
